@@ -1,0 +1,81 @@
+.auth-logo-container {
+    height: 50px;
+    margin-top: 80px;
+}
+
+.auth-logo {
+    width: 60px;
+}
+
+.auth-content {
+    margin-top: 20px;
+    padding: 15px 25px 25px 25px;
+    background: #fff;
+    border-radius: 5px;
+    box-sizing: border-box;
+    box-shadow: 0 2px 1px -1px rgba(0,0,0,.2), 0 1px 1px 0 rgba(0,0,0,.14), 0 1px 3px 0 rgba(0,0,0,.12);
+    width: 300px;
+}
+
+.auth-logo-name {
+    padding: 10px 0 0 10px;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.new-url-message {
+    width: 250px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+span {
+    text-align: left;
+    font-size: 13px;
+}
+
+.formGroup {
+    font-size: 14px;
+    text-align: left;
+    font-weight: bold;
+    width: 100%;
+    margin-top: 5px;
+    border: 1px #bbc0c4;
+}
+
+.tdm-button {
+    width: 300px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    box-shadow: 0 2px 1px -1px rgba(0,0,0,.2), 0 1px 1px 0 rgba(0,0,0,.14), 0 1px 3px 0 rgba(0,0,0,.12);
+}
+
+.tdm-button:hover {
+    opacity: 0.85;
+    cursor: pointer;
+}
+
+.lds-dual-ring {
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+}
+.lds-dual-ring:after {
+    content: " ";
+    display: block;
+    width: 64px;
+    height: 64px;
+    margin: 8px;
+    border-radius: 50%;
+    border: 6px solid #ff5f00;
+    border-color: #ff5f00 transparent #ff5f00 transparent;
+    animation: lds-dual-ring 1.2s linear infinite;
+}
+@keyframes lds-dual-ring {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
